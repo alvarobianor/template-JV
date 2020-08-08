@@ -1,0 +1,8 @@
+Essa é uma pasta que pode parecer estranha de começo, mas muito importante e útil,
+ela guarda os middlewares de "meio de campo", como no futebol para a bola chegar
+no ataque, ela geralmente vai pelo meio de campo até os atacantes (como a requisição que sai
+do cliente até o servidor), esses middlewares são especiais de certa forma, geralmente
+são códigos repetitivos que precisão ser executados em várias classes em comum,
+o melhor exemplo é o de confirmar autenticação, saber se aquela requisição pode passar,
+para não ficar criando isso a cada metodo de cada rota, criamos uma unica vez e
+ele vai interceptar para todas as chamadas.

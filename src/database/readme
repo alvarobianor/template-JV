@@ -1,0 +1,5 @@
+Essa pasta guarda as configurações de acesso ao banco de dados, geralmente usada
+também para guardar as migrations (versões de códigos para lidar com o banco de dados
+quando se trabalha com uma equipe de desenvolvimento) dependendo do banco de dados
+é interessante existir essa pasta ou não, como tudo na arquitetura e estrutura
+das pastar no projeto, é questão de organização!

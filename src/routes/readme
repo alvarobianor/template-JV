@@ -1,0 +1,26 @@
+Pasta que vai guardar o arquivo de gerenciamento das rotas da aplicação e...
+Guardar os controllers, embora aqui eles não estejam sendo própriamente chamados
+de controllers, eles são controllers pois estão exercendo o papel de um controller e
+essa é a magia da arquitetura de software, não existe um padrão universal pra tudo,
+a arquitetura vai se adaptando ao tamanho atual do projeto, a estrutura de pastas
+vai se organizando as necessidades junto, mas o core do MVC se mantêm.
+
+- controller
+	- user controller
+	- productcontroller
+	...
+
+- Service
+	- user
+		- services de user
+	- product
+		- services de product
+
+(Em projetos menores como esse NO MOMENTO, é comum deixar os services tds juntos
+quando o projeto crescer, vai sendo organizado como no exemplo acima todos os services
+de users ficam numa pasta com o nome dele, como citei mais acima, vai mudando
+de acordo com a situação atual do projeto)
+
+- Models
+	- UserModel
+	- ProductModel

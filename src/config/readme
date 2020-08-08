@@ -1,0 +1,3 @@
+Nessa pasta ficam arquivos de configuração que são importados por outros arquivos
+ele tem uma função parecida com o .env, a diferença é que ele não guarda informações
+sensiveis, são realmente códigos personalizados apenas.

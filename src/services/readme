@@ -1,0 +1,8 @@
+Pasta também muito importante, ela é usada para separar  responsabilidades de
+acesso a dados e lógica, da parte dos controlers da requisição. Toda vez que um
+controller tiver que lidar com questão de acessar banco de dados é recomendado
+criar uma classe na pasta service, justamente por ser uma boa prática do SOLID.
+
+controller (se precisar lidar com banco) -> (service + models), geralmente para
+insert, update e delete, uma busca até pode ser feita direto no controller, e
+então ele manda de volta a resposta em JSON para o controller devolver ao cliente.
